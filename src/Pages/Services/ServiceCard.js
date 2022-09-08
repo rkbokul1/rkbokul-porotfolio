@@ -5,7 +5,7 @@ const ServiceCard = ({service}) => {
     return (
         <div>
             <div data-aos="fade-up" data-aos-duration="1500">
-                <div className="service-card text-white hover:text-accent p-8 lg:p-12 ">
+                <div className="text-white hover:text-neutral p-8 lg:p-12 ">
                     <div className="text-left">
                         {/* <p className="text-5xl text-secondary">{icon}</p> */}
                         <img src={icon} alt="" />

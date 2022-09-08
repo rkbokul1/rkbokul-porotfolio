@@ -1,6 +1,7 @@
 import React from 'react';
 import rkbokul from '../../Components/image/passport.png';
 import Typed from 'react-typed';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -13,7 +14,7 @@ const Banner = () => {
                     <div>
                         <p className="text-3xl md:text-6xl font-bold">HI, I'M <span className='text-primary uppercase'>Raihanul Kabir</span></p>
 
-                        <p data-aos="fade-down-right" data-aos-duration="1000" className='text-3xl md:text-5xl uppercase font-bold'>
+                        <p data-aos="fade-down-right" data-aos-duration="1000" className='text-3xl md:text-5xl uppercase font-bold mt-1'>
                             <Typed
                                 strings={[
                                     "A Frontend Developer",
@@ -44,25 +45,25 @@ const Banner = () => {
 
                         <div className="flex gap-5 my-10 -mb-20">
                             <div data-aos="zoom-in" data-aos-duration="1000">
-                                <a
+                                <Link to='/'
                                     className="btn btn-primary text-white py-[0.85rem] px-4 lg:px-12"
                                     href="/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     My Resume
-                                </a>
+                                </Link>
                             </div>
 
                             <div data-aos="zoom-in" data-aos-duration="1000">
-                                <a
+                                <Link to='/'
                                     className="btn btn-primary text-white py-[0.85rem] px-4 lg:px-12"
                                     href="/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     Hire me
-                                </a>
+                                </Link>
                             </div>
                         </div>
 

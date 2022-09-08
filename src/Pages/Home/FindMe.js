@@ -18,7 +18,7 @@ const FindMe = () => {
                         data-aos-duration="1000"
                         className="flex gap-5"
                     >
-                        <a
+                        <Link to='/'
                             href="https://github.com/emonmorol"
                             target="_blank"
                             rel="noreferrer"
@@ -27,8 +27,8 @@ const FindMe = () => {
                                 {" "}
                                 <i className="fa-brands fa-github"></i>
                             </div>
-                        </a>
-                        <a
+                        </Link>
+                        <Link to='/'
                             href="https://www.linkedin.com/in/ekramul-hasan/"
                             target="_blank"
                             rel="noreferrer"
@@ -37,8 +37,8 @@ const FindMe = () => {
                                 {" "}
                                 <i className="fa-brands fa-linkedin-in"></i>
                             </div>
-                        </a>
-                        <a
+                        </Link>
+                        <Link to='/'
                             href="https://www.facebook.com/ekramul.hasan.morol/"
                             target="_blank"
                             rel="noreferrer"
@@ -47,7 +47,7 @@ const FindMe = () => {
                                 {" "}
                                 <i className="fa-brands fa-facebook-f"></i>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div>

@@ -1,14 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
+import Error from './Pages/Error/Error';
 import Home from './Pages/Home/Home';
-import Services from './Pages/Services/Services';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Services />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+
     </>
   );
 }
