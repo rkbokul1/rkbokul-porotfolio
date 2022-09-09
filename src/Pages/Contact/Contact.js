@@ -4,7 +4,7 @@ import Info from './Info';
 
 const Contact = () => {
     return (
-        <div id='contact' className='px-14 mt-10'>
+        <div id='contact' className='px-14 pt-16'>
             <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">
                 Contact With Me
             </p>
