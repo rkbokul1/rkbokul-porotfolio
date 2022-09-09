@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Certificate from './Certificate';
+import Educations from './Educations';
 import Skill from './Skill';
 
 const Resume = () => {
@@ -25,17 +27,13 @@ const Resume = () => {
     }
 
     return (
-        <div id='resume'>
-            <div className="grid grid-cols-3 px-14 mb-5">
-                <button onClick={handleSkill} className="btn btn-lg btn-outline shadow-lg">
-                    skill
-                </button>
-                <button onClick={handleEducation} className="btn btn-lg btn-outline shadow-lg">
-                    Educations
-                </button>
-                <button onClick={handleCertificate} className="btn btn-lg btn-outline shadow-lg">
-                    Certificate
-                </button>
+        <div id='resume' className='px-14'>
+            <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">My Resume</p>
+
+            <div className="grid grid-cols-3 mb-5">
+                <button onClick={handleSkill} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-primary shadow-2xl">skill</button>
+                <button onClick={handleEducation} className="btn sm:btn-sm md:btn-lg  btn-outline hover:text-primary shadow-2xl"> Educations</button>
+                <button onClick={handleCertificate} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-primary shadow-2xl"> Certificate </button>
             </div>
 
             <div>
@@ -43,13 +41,13 @@ const Resume = () => {
                     skills && <Skill />
                 }
                 {
-                    education && 'Fuck you baby'
+                    education && <Educations />
                 }
                 {
-                    certificate && 'Pala!'
+                    certificate && <Certificate />
                 }
-
             </div>
+
         </div>
     );
 };
