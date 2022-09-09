@@ -1,12 +1,14 @@
 import React from 'react';
 import Input from './Input';
 import Info from './Info';
-import './Contact.css';
 
 const Contact = () => {
     return (
-        <div id='contact' >
-            <div className='grid grid-cols-1 md:grid-cols-2 px-14 mb-14'>
+        <div id='contact' className='px-14 mt-10'>
+            <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">
+                Contact With Me
+            </p>
+            <div className='grid grid-cols-1 md:grid-cols-2 mb-14'>
                 <div>
                     <Info />
                 </div>

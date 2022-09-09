@@ -560,9 +560,9 @@ const Skill = () => {
 
 
     return (
-        <div id="skill" className="mt-5 text-accent">
+        <div id="skill" className="mt-5">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 px-12 text-white">
+            <div className="grid grid-cols-1 md:grid-cols-2 text-white">
 
                 <div className='card shadow-2xl p-10 m-3'>
                     <h2 className="text-2xl font-bold mb-5 text-primary">Expertise</h2>
