@@ -46,7 +46,7 @@ const Input = () => {
                 <p className='text-sm text-red-500'>{errors.subject?.message}</p>
 
                 <br />
-                <input type="submit" className='btn btn-outline hover:bg-primary mt-5' />
+                <input type="submit" className='btn btn-outline hover:bg-secondary mt-5' />
             </form>
 
 

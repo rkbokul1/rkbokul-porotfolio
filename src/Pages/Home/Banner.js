@@ -45,25 +45,23 @@ const Banner = () => {
 
                         <div className="flex gap-5 my-10 -mb-20">
                             <div data-aos="zoom-in" data-aos-duration="1000">
-                                <Link to='/'
+                                <a href='https://drive.google.com/file/d/10jBBmqapdgWs31H93EnIEO92bsbyNp2N/view'
                                     className="btn btn-primary text-white py-[0.85rem] px-4 lg:px-12"
-                                    href="/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     My Resume
-                                </Link>
+                                </a>
                             </div>
 
                             <div data-aos="zoom-in" data-aos-duration="1000">
-                                <Link to='/'
+                                <a
                                     className="btn btn-primary text-white py-[0.85rem] px-4 lg:px-12"
-                                    href="/"
-                                    target="_blank"
+                                    href="#contact"
                                     rel="noreferrer"
                                 >
                                     Hire me
-                                </Link>
+                                </a>
                             </div>
                         </div>
 

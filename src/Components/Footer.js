@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Footer = () => {
-    
+
     return (
         <div className='px-14 mt-5'>
             <hr />

@@ -31,9 +31,9 @@ const Resume = () => {
             <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">My Resume</p>
 
             <div className="grid grid-cols-3 mb-5">
-                <button onClick={handleSkill} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-black hover:bg-primary shadow-2xl">skill</button>
-                <button onClick={handleEducation} className="btn sm:btn-sm md:btn-lg  btn-outline hover:text-black hover:bg-primary shadow-2xl"> Educations</button>
-                <button onClick={handleCertificate} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-black hover:bg-primary shadow-2xl"> Certificate </button>
+                <button onClick={handleSkill} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-black hover:bg-secondary shadow-2xl">skill</button>
+                <button onClick={handleEducation} className="btn sm:btn-sm md:btn-lg  btn-outline hover:text-black hover:bg-secondary shadow-2xl"> Educations</button>
+                <button onClick={handleCertificate} className="btn sm:btn-sm md:btn-lg btn-outline hover:text-black hover:bg-secondary shadow-2xl"> Certificate </button>
             </div>
 
             <div>

@@ -11,7 +11,7 @@ const Navbar = () => {
         
     </>
     return (
-        <div className='sticky top-0 z-50 bg-base-100'>
+        <div className='sticky top-0 z-50'>
             <div className="navbar px-12  first:text-white"> {/*--bg-base-100*/}
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,7 +22,7 @@ const Navbar = () => {
                             {menu}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case text-xl">R.K <span className='text-primary'> Bokul</span></Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl">R.K <span className='text-primary ml-1'>Bokul</span></Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">

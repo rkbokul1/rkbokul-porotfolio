@@ -15,7 +15,7 @@ const info = () => {
                 <p>Phone: <span>+8801775630871</span></p>
                 <p>Email: <span>+rkbokul@gmail.com</span></p>
                 <div className="card-actions ">
-                    <button className="btn btn-outline hover:bg-primary ">Download Resume</button>
+                    <button className="btn btn-outline hover:bg-secondary ">Download Resume</button>
                 </div>
             </div>
         </div>
