@@ -1,10 +1,15 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { toast } from 'react-toastify';
 
 const Input = () => {
 
-    const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = data => console.log(data);
+    const { register, formState: { errors }, reset, handleSubmit } = useForm();
+    const onSubmit = data => {
+        // console.log(data);
+        toast('Message Sent')        
+        reset();       
+    }
 
 
     return (
@@ -21,9 +26,10 @@ const Input = () => {
                 <label className='label'>
                     <p >Phone</p>
                 </label>
-                <input type="number" {...register("number", { min: 18, max: 99 })} className="input input-bordered w-full max-w-md" />
+                <input {...register("number", { required: 'Phone required', maxLength: 20 })} className="input input-bordered w-full max-w-md" />
+                <p className='text-sm text-red-500'>{errors.number?.type === 'required' && errors.fullname.message}</p>
 
-
+                
 
                 <label className='label'>
                     <p>E-mail</p>
@@ -43,7 +49,7 @@ const Input = () => {
                     <p >Message</p>
                 </label>
                 <textarea {...register("message", { required: "Message required" })} className="textarea textarea-bordered h-24 input input-bordered w-full max-w-md" />
-                <p className='text-sm text-red-500'>{errors.subject?.message}</p>
+                <p className='text-sm text-red-500'>{errors.message?.message}</p>
 
                 <br />
                 <input type="submit" className='btn btn-outline hover:bg-secondary mt-5' />
