@@ -11,7 +11,7 @@ const Banner = () => {
                     <img src={rkbokul} className="max-w-52 md:max-w-sm rounded-lg" alt='rkbokul' />
 
                     <div >
-                        <p className="text-3xl md:text-6xl font-bold">HI, I'M <span className='text-primary uppercase'>Raihanul Kabir</span></p>
+                        <p className="text-2xl md:text-5xl font-bold">HI, I'M <span className='text-primary uppercase'>Raihanul Kabir</span></p>
 
                         <p data-aos="fade-down-right" data-aos-duration="1000" className='text-xl md:text-5xl uppercase font-bold mt-1'>
                             <Typed
