@@ -13,7 +13,7 @@ const Banner = () => {
                     <div >
                         <p className="text-2xl md:text-5xl font-bold">HI, I'M <span className='text-primary uppercase'>Raihanul Kabir</span></p>
 
-                        <p data-aos="fade-down-right" data-aos-duration="1000" className='text-xl md:text-5xl uppercase font-bold mt-1'>
+                        <p data-aos="fade-down-right" data-aos-duration="1000" className='text-xl md:text-3xl uppercase font-bold mt-1'>
                             <Typed
                                 strings={[
                                     "A Frontend Developer",

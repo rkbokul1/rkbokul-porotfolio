@@ -5,15 +5,15 @@ const Educations = () => {
     const educations = [
         {
             id: 1,
-            degree: "BSc. in Computer Science And Engineering",
+            degree: "MSc. in Statitics",
             institute: "Hajee Mohammad Danesh Science And Technology University",
-            year: "2022 (First Semester) - 2026 (Possibly)",
+            year: "2020 - Running",
         },
         {
             id: 2,
-            degree: "Science",
-            institute: "Notre Dame Collage",
-            year: "2018 - 2020",
+            degree: "BSc (Hon's) in Statitics",
+            institute: "Hajee Mohammad Danesh Science And Technology University",
+            year: "2016 - 2019",
         },
     ];
     return (

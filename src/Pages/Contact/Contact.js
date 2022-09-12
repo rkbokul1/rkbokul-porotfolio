@@ -8,14 +8,19 @@ const Contact = () => {
             <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">
                 Contact With Me
             </p>
-            <div className='grid grid-cols-1 md:grid-cols-2 mb-14'>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 mb-14 gap-5'>
+
                 <div className='flex justify-center'>
                     <Info />
                 </div>
-                <div>
+
+                <div className=' '>
                     <Input />
                 </div>
+
             </div>
+
         </div>
     );
 };

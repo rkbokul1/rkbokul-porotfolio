@@ -6,21 +6,23 @@ const Input = () => {
 
     const { register, formState: { errors }, reset, handleSubmit } = useForm();
     const onSubmit = data => {
+
+       
         // console.log(data);
         // toast('Message Sent')        
-        reset();       
+        // reset();
     }
 
 
     return (
-        <div className='card max-w-sm md:max-w-lg bg-base-100 shadow-xl p-5'>
+        <div className='card max-w-lg bg-base-100 shadow-xl p-5'>
 
             <form onSubmit={handleSubmit(onSubmit)}>
 
                 <label className='label'>
                     <p >Full Name</p>
                 </label>
-                <input {...register("fullname", { required: 'Full name required', maxLength: 20 })} className="input input-bordered w-full max-w-md" />
+                <input {...register("fullname", { required: 'Full name required'})} className="input input-bordered w-full max-w-md" />
                 <p className='text-sm text-red-500'>{errors.fullname?.type === 'required' && errors.fullname.message}</p>
 
                 <label className='label'>
