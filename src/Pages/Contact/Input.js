@@ -7,13 +7,13 @@ const Input = () => {
     const { register, formState: { errors }, reset, handleSubmit } = useForm();
     const onSubmit = data => {
         // console.log(data);
-        toast('Message Sent')        
+        // toast('Message Sent')        
         reset();       
     }
 
 
     return (
-        <div className='card max-w-lg bg-base-100 shadow-xl p-5'>
+        <div className='card max-w-sm md:max-w-lg bg-base-100 shadow-xl p-5'>
 
             <form onSubmit={handleSubmit(onSubmit)}>
 

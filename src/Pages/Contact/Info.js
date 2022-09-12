@@ -4,9 +4,11 @@ import contact from '../../Components/image/contact us.jfif'
 const info = () => {
     return (
         <div className="card max-w-lg bg-base-100 shadow-xl">
-            <figure className="px-10 pt-10">
-                <img src={contact} alt="contact" className="rounded-xl" />
-            </figure>
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <figure className="px-10 pt-10">
+                    <img src={contact} alt="contact" className="rounded-xl" />
+                </figure>
+            </div>
             <div className="card-body ">
                 <h2 className="card-title text-primary">Raihanul Kabir</h2>
                 <p>Mern Stack Developer</p>

@@ -4,7 +4,6 @@ import Error from './Pages/Error/Error';
 import Home from './Pages/Home/Home';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
