@@ -57,10 +57,6 @@ const Input = () => {
                 <input type="submit" className='btn btn-outline hover:bg-secondary mt-5' />
             </form>
 
-
-
-
-
         </div>
     );
 };

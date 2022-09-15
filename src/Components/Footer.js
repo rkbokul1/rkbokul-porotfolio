@@ -16,16 +16,16 @@ const Footer = () => {
                     <span className="footer-title">Find Me on</span>
                     <div className="grid grid-flow-col gap-4">
 
-                       <a title='Github' href='https://github.com/rkbokul1' target="-blank" className='text-2xl'><i class="fa-brands fa-github"></i></a>
+                        <a title='Github' href='https://github.com/rkbokul1' target="-blank" className='text-2xl'><i class="fa-brands fa-github"></i></a>
 
-                       <a title='Linkedin' href='https://www.linkedin.com/in/rkbokul1/' target="-blank" className='text-2xl'><i class="fa-brands fa-linkedin"></i></a>
+                        <a title='Linkedin' href='https://www.linkedin.com/in/rkbokul1/' target="-blank" className='text-2xl'><i class="fa-brands fa-linkedin"></i></a>
 
-                       <a title='Facebook' href='https://www.facebook.com/rkbokul3' target="-blank" className='text-2xl'><i class="fa-brands fa-facebook"></i></a>
+                        <a title='Facebook' href='https://www.facebook.com/rkbokul3' target="-blank" className='text-2xl'><i class="fa-brands fa-facebook"></i></a>
 
-                       <a title='Twittwe' href='https://twitter.com/rkbokul1' target="-blank" className='text-2xl'><i class="fa-brands fa-square-twitter"></i></a>
+                        <a title='Twittwe' href='https://twitter.com/rkbokul1' target="-blank" className='text-2xl'><i class="fa-brands fa-square-twitter"></i></a>
 
-                       <a title='Whatsapp' href='https://wa.me/+8801775630871' target="-blank" className='text-2xl'><i class="fa-brands fa-square-whatsapp"></i></a>
-                        
+                        <a title='Whatsapp' href='https://wa.me/+8801775630871' target="-blank" className='text-2xl'><i class="fa-brands fa-square-whatsapp"></i></a>
+
                     </div>
                 </div>
             </footer>

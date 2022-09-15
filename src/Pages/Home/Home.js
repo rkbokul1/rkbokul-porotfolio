@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../../Components/Footer';
 import Navbar from '../../Components/Navbar';
 import Project from '../Project/Project';
+import Line from '../../Components/Line';
 
 const Home = () => {
     return (
@@ -15,8 +16,11 @@ const Home = () => {
 
             <div className='max-w-7xl mx-auto px-12'>
                 <Services />
+                <Line />
                 <Project />
+                <Line />
                 <Resume />
+                <Line />
                 <Contact />
             </div>
 
