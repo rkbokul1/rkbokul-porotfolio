@@ -1,0 +1,40 @@
+.box-tasvir {
+    overflow: hidden;
+    height: 320px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@keyframes imagescroll {
+    0% {
+        transform: translateY(30%);
+    }
+
+    50% {
+        transform: translateY(-40%);
+    }
+
+    100% {
+        transform: translateY(37%);
+    }
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    transition: 5s all ease;
+}
+
+.box-tasvir .image:hover {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    max-width: 100%;
+    transition: all 3s;
+    animation-duration: 15s;
+    animation-name: imagescroll;
+    animation-iteration-count: 1000;
+}

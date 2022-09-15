@@ -5,15 +5,21 @@ import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
 import Footer from '../../Components/Footer';
 import Navbar from '../../Components/Navbar';
+import Project from '../Project/Project';
 
 const Home = () => {
     return (
         <div id='home'>
             <Navbar />
             <Banner />
-            <Services />
-            <Resume />
-            <Contact />
+
+            <div className='max-w-7xl mx-auto px-12'>
+                <Services />
+                <Project />
+                <Resume />
+                <Contact />
+            </div>
+
             <Footer />
         </div>
     );

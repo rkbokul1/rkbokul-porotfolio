@@ -2,20 +2,24 @@ import React from 'react';
 import EducationCard from './EducationCard';
 
 const Educations = () => {
+    
     const educations = [
         {
             id: 1,
             degree: "MSc. in Statitics",
             institute: "Hajee Mohammad Danesh Science And Technology University",
+            Pid: 1608347,
             year: "2020 - Running",
         },
         {
             id: 2,
             degree: "BSc (Hon's) in Statitics",
             institute: "Hajee Mohammad Danesh Science And Technology University",
+            Pid: 1608347,
             year: "2016 - 2019",
         },
     ];
+
     return (
         <div>
             <div className="relative max-w-2xl mx-auto mt-16">

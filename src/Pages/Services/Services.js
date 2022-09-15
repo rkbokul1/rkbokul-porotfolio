@@ -10,7 +10,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div id="service" className="text-white max-w-7xl mx-auto px-12 pt-16">
+        <div id="service" className="text-white mx-auto pt-16">
             <div data-aos="zoom-in" data-aos-duration="500">
                 <p className="text-xs lg:text-sm text-white uppercase">Services</p>
                 <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">

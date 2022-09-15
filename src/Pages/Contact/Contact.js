@@ -4,8 +4,8 @@ import Info from './Info';
 
 const Contact = () => {
     return (
-        <div data-aos="fade-right" data-aos-duration="1000" id='contact' className='px-12 pt-16'>
-            <p className="text-primary font-bold text-3xl lg:text-5xl mb-10">
+        <div data-aos="fade-down" data-aos-duration="1000" id='contact' className='pt-16'>
+            <p className="text-primary font-bold text-3xl lg:text-5xl mb-5">
                 Contact With Me
             </p>
 
